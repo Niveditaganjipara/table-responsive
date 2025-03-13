@@ -11,308 +11,533 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>table-responsive</title>
 </head>
-    <style>
-        body
-    {
+<style>
+    body {
         background-color: #beb8b831;
     }
-    </style>
+</style>
+
 <body>
-    <div class="container-fluid mt-5 bg-white col-11"> 
+    <div class="d-xl-block  d-lg-none d-sm-none h1 ml-5 text-capitalize mt-5 pl-5 mb-0  ">
+        <p>all data</p>
+    </div>
+    <div class="d-xl-none d-lg-block d-sm-none h1 ml-5 text-capitalize mt-5">
+       <p>essential + optional data (large screen view)</p>
+    </div>
+    <div class="d-xl-none d-lg-none d-sm-block h1  text-capitalize mt-5 pl-5">
+        <p>essential data (smartphone view)</p>
+    </div>
+    <div class="container-fluid mt-5 bg-white col-11">
         <div class="row justify-content-end mr-5">
-            <button class="border border-secondary rounded mt-4 mb-4 mr-3"><i class="bi bi-caret-down-fill"></i> display</button>
+            <div class="text-capitalize btn border border-secondary rounded mt-4 mb-4 mr-3"><i
+                    class="bi bi-caret-down-fill"></i> display</div>
         </div>
-        <div class="row  text-center text-capitalize h6 mb-0 text-secondary  border-bottom p-1">
-            <div class="col">
-                <p>Company</p>
+        <div class="row  text-center text-capitalize h6 mb-0 text-secondary border-bottom p-1">
+            <div class="col text-start">
+                <div class="">
+                    <p>Company</p>
+                </div>
             </div>
-            <div class="col">
-                <p>Last Trade</p>
+            <div class="col text-start">
+                <div class="">
+                    <p>Last Trade</p>
+                </div>
             </div>
-            <div class="col">
-                <p>Trade Time</p>
+            <div class="col text-start d-xl-block d-lg-block d-sm-none ">
+                <div class="d-xl-block d-lg-block d-sm-none ">
+                    <p>Trade Time</p>
+                </div>
             </div>
-            <div class="col">
-                <p>Change</p>
+            <div class="col text-start">
+                <div class="">
+                    <p>change</p>
+                </div>
             </div>
-            <div class="col">
-                <p>Prev Close</p>
+            <div class="col text-start d-xl-block d-lg-block d-sm-none ">
+                <div class=" d-xl-block d-lg-block d-sm-none">
+                    <p>Prev Close</p>
+                </div>
             </div>
-            <div class="col">
-                <p>Open</p>
+            <div class="col  text-start d-xl-block d-lg-block d-sm-none ">
+                <div class=" d-xl-block d-lg-block d-sm-none">
+                    <p>Open</p>
+                </div>
             </div>
-            <div class="col">
-                <p>Bid</p>
+            <div class="col d-xl-block d-lg-none text-start d-sm-none">
+                <div class=" d-xl-block d-lg-none">
+                    <p>Bid</p>
+                </div>
             </div>
-            <div class="col">
-                <p>Ask</p>
+            <div class="col d-xl-block d-lg-none d-sm-none">
+                <div class="d-xl-block d-lg-none ">
+                    <p>Ask</p>
+                </div>
             </div>
-            <div class="col">
-                <p>1y target Est</p>
-            </div>
-        </div>
-        <div class="row  text-center text-capitalize h6 mb-0   border-bottom p-2">
-            <div class="col">
-                <p>GOOG</p>
-            </div>
-            <div class="col">
-                <p>597.74</p>
-            </div>
-            <div class="col">
-                <p>12:12PM</p>
-            </div>
-            <div class="col">
-                <p>14.81 (2.54%)</p>
-            </div>
-            <div class="col">
-                <p>582.93</p>
-            </div>
-            <div class="col">
-                <p>597.95</p>
-            </div>
-            <div class="col">
-                <p>597.73 x 100</p>
-            </div>
-            <div class="col">
-                <p>597.91 x 300</p>
-            </div>
-            <div class="col">
-                <p>731.10</p>
+            <div class="col d-xl-block d-lg-none d-sm-none">
+                <div class=" d-xl-block d-lg-none">
+                    <p>1y target Est</p>
+                </div>
             </div>
         </div>
         <div class="row  text-center text-capitalize h6 mb-0   border-bottom p-2">
-            <div class="col">
-                <p>AAPL</p>
+            <div class="col text-start">
+                <div class=" ">
+
+                    <p class="mb-0">GOOG</p>
+                    <P class="fs-6 text-secondary mb-0 text-center">google inc.</P>
+                </div>
             </div>
-            <div class="col">
-                <p>378.94</p>
+            <div class="col text-start">
+                <div class="">
+
+                    <p>597.74</p>
+                </div>
             </div>
-            <div class="col">
-                <p>12:22PM</p>
+            <div class="col text-start d-xl-block d-lg-block d-sm-none">
+                <div class=" d-xl-block d-lg-block d-sm-none">
+
+                    <p>12:12PM</p>
+                </div>
             </div>
-            <div class="col">
-                <p>5.74 (1.54%)</p>
+            <div class="col text-start">
+                <div class="">
+
+                    <p>14.81 (2.54%)</p>
+                </div>
             </div>
-            <div class="col">
-                <p>373.20</p>
+            <div class="col text-start d-xl-block d-lg-block d-sm-none ">
+                <div class=" d-xl-block d-lg-block d-sm-none ">
+
+                    <p>582.93</p>
+                </div>
             </div>
-            <div class="col">
-                <p>381.02</p>
+            <div class="col text-start d-xl-block d-lg-block d-sm-none ">
+                <div class=" d-xl-block d-lg-block d-sm-none ">
+
+                    <p>597.95</p>
+                </div>
             </div>
-            <div class="col">
-                <p>378.92 x 300</p>
+            <div class="col d-xl-block d-lg-none d-sm-none text-start">
+                <div class=" d-xl-block d-lg-none d-sm-none">
+
+                    <p>597.73 x 100</p>
+                </div>
             </div>
-            <div class="col">
-                <p>378.99 x 100</p>
+            <div class="col d-xl-block d-lg-none d-sm-none">
+                <div class="d-xl-block d-lg-none d-sm-none">
+
+                    <p>597.91 x 300</p>
+                </div>
             </div>
-            <div class="col">
-                <p>505.94</p>
+            <div class="col d-xl-block d-lg-none d-sm-none">
+                <div class="d-xl-block d-lg-none d-sm-none">
+
+                    <p>731.10</p>
+                </div>
             </div>
         </div>
         <div class="row  text-center text-capitalize h6 mb-0   border-bottom p-2">
-            <div class="col">
-                <p>Apoin Insi</p>
+            <div class="col text-start">
+                <div class="">
+
+                    <p class="mb-0">APPL</p>
+                    <P class="fs-6 text-secondary mb-0 text-center">Apple inc.</P>
+                </div>
             </div>
-            <div class="col">
-                <p>191.55</p>
+            <div class="col text-start">
+                <div class="">
+
+                    <p>378.94</p>
+                </div>
             </div>
-            <div class="col">
-                <p>12:23PM</p>
+            <div class="col text-start d-xl-block d-lg-block d-sm-none ">
+                <div class=" d-xl-block d-lg-block d-sm-none ">
+
+                    <p>12:22PM</p>
+                </div>
             </div>
-            <div class="col">
-                <p>3.16 (1.68%)</p>
+            <div class="col text-start">
+                <div class="">
+
+                    <p>5.74 (1.54%)</p>
+                </div>
             </div>
-            <div class="col">
-                <p>188.39</p>
+            <div class="col text-start d-xl-block d-lg-block d-sm-none ">
+                <div class=" d-xl-block d-lg-block d-sm-none ">
+
+                    <p>373.20</p>
+                </div>
             </div>
-            <div class="col">
-                <p>194.99</p>
+            <div class="col text-start d-xl-block d-lg-block d-sm-none ">
+                <div class=" d-xl-block d-lg-block d-sm-none ">
+
+                    <p>381.02</p>
+                </div>
             </div>
-            <div class="col">
-                <p>191.52 x 300</p>
+            <div class="col d-xl-block d-lg-none text-start d-sm-none">
+                <div class=" d-xl-block d-lg-none d-sm-none">
+
+                    <p>378.92 x 300</p>
+                </div>
             </div>
-            <div class="col">
-                <p>191.58 x 100</p>
+            <div class="col d-xl-block d-lg-none d-sm-none">
+                <div class="d-xl-block d-lg-none d-sm-none">
+
+                    <p>378.99 x 100</p>
+                </div>
             </div>
-            <div class="col">
-                <p>240.32</p>
+            <div class="col d-xl-block d-lg-none d-sm-none">
+                <div class="d-xl-block d-lg-none d-sm-none">
+
+                    <p>505.94</p>
+                </div>
             </div>
+        </div>
+        <div class="row  text-center text-capitalize h6 mb-0   border-bottom p-2">
+            <div class="col text-start">
+                <div class="">
+
+                    <p class="mb-0">AMZN</p>
+                    <P class="fs-6 text-secondary mb-0 text-center">Amazon.com.inc.</P>
+                </div>
+            </div>
+            <div class="col text-start">
+                <div class="">
+
+                    <p>191.55</p>
+                </div>
+            </div>
+            <div class="col text-start d-xl-block d-lg-block d-sm-none ">
+                <div class=" d-xl-block d-lg-block d-sm-none ">
+
+                    <p>12:23PM</p>
+                </div>
+            </div>
+            <div class="col text-start">
+                <div class="">
+
+                    <p>3.16 (1.68%)</p>
+                </div>
+            </div>
+            <div class="col text-start d-xl-block d-lg-block d-sm-none ">
+                <div class=" d-xl-block d-lg-block d-sm-none ">
+
+                    <p>188.39</p>
+                </div>
+            </div>
+            <div class="col text-start d-xl-block d-lg-block d-sm-none ">
+                <div class=" d-xl-block d-lg-block d-sm-none ">
+
+                    <p>194.99</p>
+                </div>
+            </div>
+            <div class="col d-xl-block d-lg-none text-start d-sm-none">
+                <div class=" d-xl-block d-lg-none d-sm-none">
+
+                    <p>191.52 x 300</p>
+                </div>
+            </div>
+            <div class="col d-xl-block d-lg-none d-sm-none">
+                <div class="d-xl-block d-lg-none d-sm-none">
+
+                    <p>191.58 x 100</p>
+                </div>
+            </div>
+            <div class="col d-xl-block d-lg-none d-sm-none">
+                <div class="d-xl-block d-lg-none d-sm-none">
+
+                    <p>240.32</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="row  text-center text-capitalize h6 mb-0   border-bottom p-2">
+            <div class="col text-start">
+                <div class="">
+
+                    <p class="mb-0">ORCl</p>
+                    <P class="fs-6 text-secondary mb-0 text-center">Oracle inc.</P>
+                </div>
+            </div>
+            <div class="col text-start">
+                <div class="">
+
+                    <p>B118</p>
+                </div>
+            </div>
+            <div class="col text-start d-xl-block d-lg-block d-sm-none ">
+                <div class=" d-xl-block d-lg-block d-sm-none ">
+
+                    <p>12:44PM</p>
+                </div>
+            </div>
+            <div class="col text-start">
+                <div class="">
+
+                    <p>1.41 (4,72%)</p>
+                </div>
+            </div>
+            <div class="col text-start d-xl-block d-lg-block d-sm-none ">
+                <div class=" d-xl-block d-lg-block d-sm-none ">
+
+                    <p>29.74</p>
+                </div>
+            </div>
+            <div class="col text-start d-xl-block d-lg-block d-sm-none ">
+                <div class=" d-xl-block d-lg-block d-sm-none ">
+
+                    <p>30.67</p>
+                </div>
+            </div>
+            <div class="col d-xl-block d-lg-none text-start d-sm-none">
+                <div class=" d-xl-block d-lg-none d-sm-none">
+
+                    <p class="">31.14 x 6500</p>
+                </div>
+            </div>
+            <div class="col d-xl-block d-lg-none d-sm-none">
+                <div class="d-xl-block d-lg-none d-sm-none">
+
+                    <p class="">31.15 x 3200</p>
+                </div>
+            </div>
+            <div class="col d-xl-block d-lg-none d-sm-none">
+                <div class="d-xl-block d-lg-none d-sm-none">
+
+                    <p class="">36.11</p>
+                </div>
+            </div>
+        </div>
+        <div class="row  text-center text-capitalize h6 mb-0   border-bottom p-2">
+            <div class="col text-start">
+                <div class=" ">
+
+                    <p class="mb-0">GOOG</p>
+                    <P class="fs-6 text-secondary mb-0 text-center">google inc.</P>
+                </div>
+            </div>
+            <div class="col text-start">
+                <div class="">
+
+                    <p>597.74</p>
+                </div>
+            </div>
+            <div class="col text-start d-xl-block d-lg-block d-sm-none">
+                <div class=" d-xl-block d-lg-block d-sm-none">
+
+                    <p>12:12PM</p>
+                </div>
+            </div>
+            <div class="col text-start">
+                <div class="">
+
+                    <p>14.81 (2.54%)</p>
+                </div>
+            </div>
+            <div class="col text-start d-xl-block d-lg-block d-sm-none ">
+                <div class=" d-xl-block d-lg-block d-sm-none ">
+
+                    <p>582.93</p>
+                </div>
+            </div>
+            <div class="col text-start d-xl-block d-lg-block d-sm-none ">
+                <div class=" d-xl-block d-lg-block d-sm-none ">
+
+                    <p>597.95</p>
+                </div>
+            </div>
+            <div class="col d-xl-block d-lg-none d-sm-none text-start">
+                <div class=" d-xl-block d-lg-none d-sm-none">
+
+                    <p>597.73 x 100</p>
+                </div>
+            </div>
+            <div class="col d-xl-block d-lg-none d-sm-none">
+                <div class="d-xl-block d-lg-none d-sm-none">
+
+                    <p>597.91 x 300</p>
+                </div>
+            </div>
+            <div class="col d-xl-block d-lg-none d-sm-none">
+                <div class="d-xl-block d-lg-none d-sm-none">
+
+                    <p>731.10</p>
+                </div>
+            </div>
+        </div>
+        <div class="row  text-center text-capitalize h6 mb-0   border-bottom p-2">
+            <div class="col text-start">
+                <div class="">
+
+                    <p class="mb-0">APPL</p>
+                    <P class="fs-6 text-secondary mb-0 text-center">Apple inc.</P>
+                </div>
+            </div>
+            <div class="col text-start">
+                <div class="">
+
+                    <p>378.94</p>
+                </div>
+            </div>
+            <div class="col text-start d-xl-block d-lg-block d-sm-none ">
+                <div class=" d-xl-block d-lg-block d-sm-none ">
+
+                    <p>12:22PM</p>
+                </div>
+            </div>
+            <div class="col text-start">
+                <div class="">
+
+                    <p>5.74 (1.54%)</p>
+                </div>
+            </div>
+            <div class="col text-start d-xl-block d-lg-block d-sm-none ">
+                <div class=" d-xl-block d-lg-block d-sm-none ">
+
+                    <p>373.20</p>
+                </div>
+            </div>
+            <div class="col text-start d-xl-block d-lg-block d-sm-none ">
+                <div class=" d-xl-block d-lg-block d-sm-none ">
+
+                    <p>381.02</p>
+                </div>
+            </div>
+            <div class="col d-xl-block d-lg-none text-start d-sm-none">
+                <div class=" d-xl-block d-lg-none d-sm-none">
+
+                    <p>378.92 x 300</p>
+                </div>
+            </div>
+            <div class="col d-xl-block d-lg-none d-sm-none">
+                <div class="d-xl-block d-lg-none d-sm-none">
+
+                    <p>378.99 x 100</p>
+                </div>
+            </div>
+            <div class="col d-xl-block d-lg-none d-sm-none">
+                <div class="d-xl-block d-lg-none d-sm-none">
+
+                    <p>505.94</p>
+                </div>
+            </div>
+        </div>
+        <div class="row  text-center text-capitalize h6 mb-0   border-bottom p-2">
+            <div class="col text-start">
+                <div class="">
+
+                    <p class="mb-0">AMZN</p>
+                    <P class="fs-6 text-secondary mb-0 text-center">Amazon.com.inc.</P>
+                </div>
+            </div>
+            <div class="col text-start">
+                <div class="">
+
+                    <p>191.55</p>
+                </div>
+            </div>
+            <div class="col text-start d-xl-block d-lg-block d-sm-none ">
+                <div class=" d-xl-block d-lg-block d-sm-none ">
+
+                    <p>12:23PM</p>
+                </div>
+            </div>
+            <div class="col text-start">
+                <div class="">
+
+                    <p>3.16 (1.68%)</p>
+                </div>
+            </div>
+            <div class="col text-start d-xl-block d-lg-block d-sm-none ">
+                <div class=" d-xl-block d-lg-block d-sm-none ">
+
+                    <p>188.39</p>
+                </div>
+            </div>
+            <div class="col text-start d-xl-block d-lg-block d-sm-none ">
+                <div class=" d-xl-block d-lg-block d-sm-none ">
+
+                    <p>194.99</p>
+                </div>
+            </div>
+            <div class="col d-xl-block d-lg-none text-start d-sm-none">
+                <div class=" d-xl-block d-lg-none d-sm-none">
+
+                    <p>191.52 x 300</p>
+                </div>
+            </div>
+            <div class="col d-xl-block d-lg-none d-sm-none">
+                <div class="d-xl-block d-lg-none d-sm-none">
+
+                    <p>191.58 x 100</p>
+                </div>
+            </div>
+            <div class="col d-xl-block d-lg-none d-sm-none">
+                <div class="d-xl-block d-lg-none d-sm-none">
+
+                    <p>240.32</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="row  text-center text-capitalize h6 mb-0   border-bottom p-2">
+            <div class="col text-start">
+                <div class="">
+
+                    <p class="mb-0">ORCl</p>
+                    <P class="fs-6 text-secondary mb-0 text-center">Oracle inc.</P>
+                </div>
+            </div>
+            <div class="col text-start">
+                <div class="">
+
+                    <p>B118</p>
+                </div>
+            </div>
+            <div class="col text-start d-xl-block d-lg-block d-sm-none ">
+                <div class=" d-xl-block d-lg-block d-sm-none ">
+
+                    <p>12:44PM</p>
+                </div>
+            </div>
+            <div class="col text-start">
+                <div class="">
+
+                    <p>1.41 (4,72%)</p>
+                </div>
+            </div>
+            <div class="col text-start d-xl-block d-lg-block d-sm-none ">
+                <div class=" d-xl-block d-lg-block d-sm-none ">
+
+                    <p>29.74</p>
+                </div>
+            </div>
+            <div class="col text-start d-xl-block d-lg-block d-sm-none ">
+                <div class=" d-xl-block d-lg-block d-sm-none ">
+
+                    <p>30.67</p>
+                </div>
+            </div>
+            <div class="col d-xl-block d-lg-none text-start d-sm-none">
+                <div class=" d-xl-block d-lg-none d-sm-none">
+
+                    <p class="">31.14 x 6500</p>
+                </div>
+            </div>
+            <div class="col d-xl-block d-lg-none d-sm-none">
+                <div class="d-xl-block d-lg-none d-sm-none">
+
+                    <p class="">31.15 x 3200</p>
+                </div>
+            </div>
+            <div class="col d-xl-block d-lg-none d-sm-none">
+                <div class="d-xl-block d-lg-none d-sm-none">
+
+                    <p class="">36.11</p>
+                </div>
+            </div>
+        </div>
         
-        </div>
-        <div class="row  text-center text-capitalize h6 mb-0   border-bottom p-2">
-            <div class="col">
-                <p>OROL</p>
-            </div>
-            <div class="col">
-                <p>B118</p>
-            </div>
-            <div class="col">
-                <p>12:44PM</p>
-            </div>
-            <div class="col">
-                <p>1.41 (4,72%)</p>
-            </div>
-            <div class="col">
-                <p>29.74</p>
-            </div>
-            <div class="col">
-                <p>30.67</p>
-            </div>
-            <div class="col">
-                <p class="">31.14 x 6500</p>
-            </div>
-            <div class="col">
-                <p class="">31.15 x 3200</p>
-            </div>
-            <div class="col">
-                <p class="">36.11</p>
-            </div>
-        </div>
-        <div class="row  text-center text-capitalize h6 mb-0   border-bottom p-2">
-            <div class="col">
-                <p>GOOG</p>
-            </div>
-            <div class="col">
-                <p>597.74</p>
-            </div>
-            <div class="col">
-                <p>12:12PM</p>
-            </div>
-            <div class="col">
-                <p>14.81 (2.54%)</p>
-            </div>
-            <div class="col">
-                <p>582.93</p>
-            </div>
-            <div class="col">
-                <p>597.95</p>
-            </div>
-            <div class="col">
-                <p>597.73 x 100</p>
-            </div>
-            <div class="col">
-                <p>597.91 x 300</p>
-            </div>
-            <div class="col">
-                <p>731.10</p>
-            </div>
-        </div>
-        <div class="row  text-center text-capitalize h6 mb-0   border-bottom p-2">
-            <div class="col">
-                <p>AAPL</p>
-            </div>
-            <div class="col">
-                <p>378.94</p>
-            </div>
-            <div class="col">
-                <p>12:22PM</p>
-            </div>
-            <div class="col">
-                <p>5.74 (1.54%)</p>
-            </div>
-            <div class="col">
-                <p>373.20</p>
-            </div>
-            <div class="col">
-                <p>381.02</p>
-            </div>
-            <div class="col">
-                <p>378.92 x 300</p>
-            </div>
-            <div class="col">
-                <p>378.99 x 100</p>
-            </div>
-            <div class="col">
-                <p>505.94</p>
-            </div>
-        </div>
-        <div class="row  text-center text-capitalize h6 mb-0   border-bottom p-2 ">
-            <div class="col">
-                <p>Apoin Insi</p>
-            </div>
-            <div class="col">
-                <p>597.74</p>
-            </div>
-            <div class="col">
-                <p>12:12PM</p>
-            </div>
-            <div class="col">
-                <p>14.81 (2.54%)</p>
-            </div>
-            <div class="col">
-                <p>582.93</p>
-            </div>
-            <div class="col">
-                <p>597.95</p>
-            </div>
-            <div class="col">
-                <p>597.73 x 100</p>
-            </div>
-            <div class="col">
-                <p>597.91 x 300</p>
-            </div>
-            <div class="col">
-                <p>731.10</p>
-            </div>
-        </div>
-        <div class="row  text-center text-capitalize h6 mb-0   border-bottom p-2 ">
-            <div class="col">
-                <p>OROL</p>
-            </div>
-            <div class="col">
-                <p>B118</p>
-            </div>
-            <div class="col">
-                <p>12:44PM</p>
-            </div>
-            <div class="col">
-                <p>1.41 (4,72%)</p>
-            </div>
-            <div class="col">
-                <p>29.74</p>
-            </div>
-            <div class="col">
-                <p>30.67</p>
-            </div>
-            <div class="col">
-                <p class="">31.14 x 6500</p>
-            </div>
-            <div class="col">
-                <p class="">31.15 x 3200</p>
-            </div>
-            <div class="col">
-                <p class="">36.11</p>
-            </div>
-        </div>
-        <div class="row  text-center text-capitalize h6 mb-0   border-bottom p-2 ">
-            <div class="col">
-                <p>GOOG</p>
-            </div>
-            <div class="col">
-                <p>597.74</p>
-            </div>
-            <div class="col">
-                <p>12:12PM</p>
-            </div>
-            <div class="col">
-                <p>14.81 (2.54%)</p>
-            </div>
-            <div class="col">
-                <p>582.93</p>
-            </div>
-            <div class="col">
-                <p>597.95</p>
-            </div>
-            <div class="col d-lg-none">
-                <p>597.73 x 100</p>
-            </div>
-            <div class="col d-lg-none">
-                <p>597.91 x 300</p>
-            </div>
-            <div class="col d-lg-none">
-                <p>731.10</p>
-            </div>
-        </div>
     </div>
 
 </body>
